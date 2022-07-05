@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Fira Sans";
+}
+.header1 {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  height: 55px;
+  align-items: center;
+  text-decoration: underline;
+  font-weight: 100;
+  font-size: large;
+}
+.navbar {
+  display: flex;
+  color: black;
+  opacity: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  font-weight: 400;
+  height: 50px;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  width: 120px;
+}
+
+.links {
+  display: flex;
+  width: 73%;
+  justify-content: space-around;
+}
+.nav1 {
+  display: flex;
+  justify-content: center;
+  width: 16%;
+}
+.nav2 {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+.nav3 {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
