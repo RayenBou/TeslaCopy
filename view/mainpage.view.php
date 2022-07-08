@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/header.css">
-    <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="stylesheet" href="../assets/styles/header.css">
+    <link rel="stylesheet" href="../assets/styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,15 +18,16 @@
 <body>
     <?php include_once 'header.view.php'; ?>
     <main>
-        <img src="./assets/src/model3-red.jpg" alt="" class="img1">
-
-
-
-
-
-
-
+        <h1 class="title hideme">Model Y</h1>
+        <img src="../assets/src/img1.jpg" alt="Image 1 de voiture" class="img-background" id="model-y">
+        <img src="../assets/src/img2.jpg" alt="Image 2 de voiture" class="img-background" id="model-3">
+        <img src="../assets/src/img3.jpg" alt="Image 3 de voiture" class="img-background" id="model-s">
+        <img src="../assets/src/img4.jpg" alt="Image 4 de voiture" class="img-background" id="model-x">
+        <img src="../assets/src/img5.jpg" alt="Image 5 de voiture" class="img-background" id="energie">
+        <img src="../assets/src/img6.jpg" alt="Image 6 de voiture" class="img-background" id="accessoire">
     </main>
+
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
