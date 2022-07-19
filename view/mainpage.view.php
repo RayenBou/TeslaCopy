@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="../assets/styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="../assets/src/favicon.png">
     <link
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,500;1,100&family=Roboto+Condensed:wght@300;400&display=swap"
         rel="stylesheet">
-    <title>products</title>
+    <title>Tesla Copy</title>
 </head>
 
 <body>

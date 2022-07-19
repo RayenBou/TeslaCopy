@@ -2,7 +2,19 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Fira Sans";
+  @font-face {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    src: url(https://fonts.gstatic.com/s/opensans/v29/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2)
+      format("woff2");
+  }
+
+  @font-face {
+    font-family: "GothamSSm";
+    src: url("../assets/font/GothamSSm.woff2") format("woff2");
+  }
 }
 .header1 {
   display: flex;
